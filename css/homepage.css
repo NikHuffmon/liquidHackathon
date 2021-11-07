@@ -9,14 +9,18 @@ body{
     background-color:#000000;
     
 }
+@font-face {
+    font-family:'Oswald-Regular';
+    src: url('fonts/Oswald-Regular.ttf');
+}
 #mainName{
     font-size:40px;
     text-align:center;
-    font-family:'Oswald','Times New Roman';
+    font-family:Oswald-Regular;
 }
 #entirePage{
     width:800px;
-    height:800px;
+    height:650px;
     margin:auto;
     border:1px #ffffff solid;
     font-family:'Oswald','Times New Roman';
@@ -113,12 +117,13 @@ button{
     background-color: #5c5c5c;
     border-color:black;
     color:white;
+    
     font-family:'Oswald','Times New Roman';
     
     
     
 }
-
+/*
 #bodyPicture{
     text-align:center;
     margin-left:auto;
@@ -129,6 +134,6 @@ button{
     font-family:'Oswald','Times New Roman';
     padding-top:50px;
 }
-
+*/
 
 
