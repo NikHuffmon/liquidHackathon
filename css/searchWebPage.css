@@ -81,3 +81,13 @@ thead th{
 .input p{
     font-size:20px;
 }
+button{
+    display:block;
+    text-align:center;
+    margin:auto;
+    width:200px;
+    background-color: #5c5c5c;
+    border-color:black;
+    color:white;
+    font-family:'Oswald','Times New Roman'; 
+}
