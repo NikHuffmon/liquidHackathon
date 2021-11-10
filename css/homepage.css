@@ -20,7 +20,7 @@ body{
 }
 #entirePage{
     width:800px;
-    height:650px;
+    height:900px;
     margin:auto;
     border:1px #ffffff solid;
     font-family:'Oswald','Times New Roman';
@@ -98,6 +98,7 @@ body{
     margin-right:auto;
     
 }
+
 #mainName{
     display:inline;
     font-family:'Oswald','Times New Roman';
@@ -123,7 +124,7 @@ button{
     
     
 }
-/*
+
 #bodyPicture{
     text-align:center;
     margin-left:auto;
@@ -134,6 +135,6 @@ button{
     font-family:'Oswald','Times New Roman';
     padding-top:50px;
 }
-*/
+
 
 
