@@ -1,0 +1,139 @@
+body{
+    --colorPrimary: #4452fe;
+	--colorSecondary: #112d57;
+	--colorFirstText: #000000;
+	--colorLightText: #ffffff;
+	--colorSecondText: #5c5c5c;
+	--colorDarkBackground: #181818;
+	--colorLightBackground: #ffffff;
+    background-color:#000000;
+    
+}
+@font-face {
+    font-family:'Oswald-Regular';
+    src: url('fonts/Oswald-Regular.ttf');
+}
+#mainName{
+    font-size:40px;
+    text-align:center;
+    font-family:Oswald-Regular;
+}
+#entirePage{
+    width:800px;
+    height:650px;
+    margin:auto;
+    border:1px #ffffff solid;
+    font-family:'Oswald','Times New Roman';
+    
+}
+#frontPage{
+   
+    color: #4452fe;
+    position:relative;
+    display:block;
+    font-family:'Oswald','Times New Roman';
+  
+ 
+
+}
+#list{
+    width:300px;
+    height:200px;
+    color:#ffffff;
+    position:relative;
+    display:block;
+    padding-top:15px;
+    font-family:'Oswald','Times New Roman';
+ 
+}
+
+.features{
+    text-align:center;
+    margin:auto;
+    font-size:30px;
+    padding-top:50px;
+    color:#ffffff;
+    font-family:'Oswald','Times New Roman';
+  
+    
+}
+.input{
+    text-align:center;
+    padding-top:20px;
+    font-family:'Oswald','Times New Roman';
+
+   
+}
+.input input{ 
+    background-color:#5c5c5c;
+    text-align:center;
+    width:350px;
+    margin:auto;
+    font-size:30px;
+    border-color:black;
+    color:#ffffff;
+    font-family:'Oswald','Times New Roman';
+
+    
+    
+}
+
+#headerPicture{
+    height:100px;
+    width:100px;
+  
+    /*float:left;*/
+}
+.header{
+    color:#4452fe;
+   
+    padding-bottom:50px;
+    text-align: center;
+    font-family:'Oswald','Times New Roman';   
+}
+#headerImage{
+    padding-top:10px;
+
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+#mainName{
+    display:inline;
+    font-family:'Oswald','Times New Roman';
+   
+}
+#search{
+    text-align:center;
+    margin:auto;
+    font-size:50px;
+    font-family:'Oswald','Times New Roman';
+}
+button{
+    display:block;
+    text-align:center;
+    margin:auto;
+    width:200px;
+    background-color: #5c5c5c;
+    border-color:black;
+    color:white;
+    
+    font-family:'Oswald','Times New Roman';
+    
+    
+    
+}
+/*
+#bodyPicture{
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    height:200px;
+    width:200px;
+    font-family:'Oswald','Times New Roman';
+    padding-top:50px;
+}
+*/
+
+

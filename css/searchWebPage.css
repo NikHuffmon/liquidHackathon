@@ -1,0 +1,83 @@
+body{
+    --colorPrimary: #4452fe;
+	--colorSecondary: #112d57;
+	--colorFirstText: #000000;
+	--colorLightText: #ffffff;
+	--colorSecondText: #5c5c5c;
+	--colorDarkBackground: #181818;
+	--colorLightBackground: #ffffff;
+    background-color:#000000;
+    
+}
+
+#headerPicture{
+    height:100px;
+    width:100px;
+  
+    /*float:left;*/
+}
+.header{
+    color:#4452fe;
+   
+    padding-bottom:50px;
+    text-align: center;
+    font-family:'Oswald','Times New Roman';   
+}
+#headerImage{
+    padding-top:10px;
+
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+#entirePage{
+    width:800px;
+    height:650px;
+    margin:auto;
+    border:1px #ffffff solid;
+    font-family:'Oswald','Times New Roman';
+    
+}
+tbody th{
+    text-align:left;
+    padding-top:10px;
+}
+    
+
+thead th{
+    border-bottom:2px solid #fff;
+    
+    text-align: left;
+    font-size:30px;
+    font-weight:bold;
+}
+.tableInfo{
+    color:#fff;
+    text-align:left;
+    padding-top:10px;
+}
+.table{
+    border:2px solid #fff;
+}
+.input{
+    text-align:center;
+    padding-top:10px;
+    font-family:'Oswald','Times New Roman';
+
+   
+}
+.input input{ 
+    background-color:#5c5c5c;
+    text-align:center;
+    width:350px;
+    margin:auto;
+    font-size:15px;
+    border-color:black;
+    color:#ffffff;
+    font-family:'Oswald','Times New Roman';
+   
+}
+
+.input p{
+    font-size:20px;
+}
