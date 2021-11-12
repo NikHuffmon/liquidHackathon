@@ -32,7 +32,7 @@ body{
 }
 #entirePage{
     width:800px;
-    height:650px;
+    height:950px;
     margin:auto;
     border:1px #ffffff solid;
     font-family:'Oswald','Times New Roman';
@@ -54,10 +54,31 @@ thead th{
 .tableInfo{
     color:#fff;
     text-align:left;
+    float:left;
+    margin:auto;
     padding-top:10px;
 }
-.table{
+#firstThreeTable{
+    
+    float:left;
+    padding-left:50px;
+
+    
+}
+#firstThreeTable table{
     border:2px solid #fff;
+    float:left;
+    padding-left:50px;
+}
+#lastThreeTable{
+  
+    float:left;
+    padding-left:50px;
+}
+#lastThreeTable table{
+    border:2px solid #fff;
+    float:left;
+    padding-left:50px;
 }
 .input{
     text-align:center;
@@ -77,7 +98,9 @@ thead th{
     font-family:'Oswald','Times New Roman';
    
 }
-
+.table{
+    margin:auto;
+}
 .input p{
     font-size:20px;
 }
@@ -90,4 +113,11 @@ button{
     border-color:black;
     color:white;
     font-family:'Oswald','Times New Roman'; 
+}
+#entirePage h2{
+    margin-top:475px;
+    float:left;
+    text-align:left;
+    position:absolute;
+
 }
